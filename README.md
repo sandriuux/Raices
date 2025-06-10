@@ -17,8 +17,7 @@ Este proyecto corresponde al Trabajo de Fin de Grado (TFG) del ciclo formativo d
 
 - HTML5 / CSS3 / JavaScript
 - PHP / MySQL
-- Frameworks y librerías (si usaste alguno, como Laravel, Bootstrap, Vue.js, etc.)
-- Git y GitHub para control de versiones
+- Frameworks y librerías (Bootstrap y PHPMailer)
 
 ## 📚 Estructura del proyecto
 
@@ -28,10 +27,10 @@ Este proyecto corresponde al Trabajo de Fin de Grado (TFG) del ciclo formativo d
 
 ## 👨‍💻 Autor
 
-- Nombre: [Tu nombre]
+- Nombre: Sandra Calahorra
 - Ciclo formativo: Desarrollo de Aplicaciones Web
 - Curso: 2023-2024
-- Centro: [Nombre de tu instituto o centro de formación]
+- Centro: Centro de FP Océano Atlántico
 
 ## 📌 Notas
 
