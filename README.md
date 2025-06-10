@@ -21,9 +21,9 @@ Este proyecto corresponde al Trabajo de Fin de Grado (TFG) del ciclo formativo d
 
 ## 📚 Estructura del proyecto
 
-- `/docs` → Documentación del proyecto (incluye análisis, diseño, y manuales)
-- `/src` → Código fuente del sitio web
-- `/assets` → Recursos gráficos y multimedia
+- `/app` → Código fuente del sitio web
+- `/sql` → Base de datos de la página web
+- `/wireframes` → Bocetos del sitio web
 
 ## 👨‍💻 Autor
 
