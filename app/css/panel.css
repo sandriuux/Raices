@@ -1,0 +1,34 @@
+.sidebar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; 
+    margin-bottom: 20px;
+}
+.sidebar-nav {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-link img {
+    margin-right: 10px; 
+}
+
+.sidebar {
+    width: 280px;
+    
+}
+.nav-text {
+    display: none;
+}
+
+@media (min-width: 992px) {¡
+    .nav-text {
+        display: inline;
+    }
+}
+
+

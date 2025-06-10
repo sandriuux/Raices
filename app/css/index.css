@@ -1,0 +1,113 @@
+.font-family {
+    font-family: 'Playfair Display', serif;;
+    font-style: oblique;
+    color: #1775bd;
+    font-size: 50px;
+    font-weight: 600
+}
+
+.banner-img{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+/* CSS SECTION1 */
+  .restaurant-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+
+  .restaurant-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.restaurant-title:before {
+  content: '“';
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  color: #073D65;
+  position: absolute;
+  top: -0.5em;
+  left: -0.8em;
+  z-index: -1;
+}
+
+.restaurant-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  position: relative;
+  padding-left: 4rem;
+}
+
+.restaurant-quote:before {
+  content: '“';
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  color: lightgray;
+  position: absolute;
+  top: -0.5em;
+  left: -0.8em;
+}
+
+.quote-divider {
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin-top: 2rem;
+}
+
+  .quote-line {
+    border-left: 2px solid black;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+  }
+
+  .blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .big-quote {
+    font-size: 80px;
+    color: lightgray;
+    position: absolute;
+    top: -20px;
+    left: -40px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .quote-line {
+      display: none;
+    }
+
+    .blockquote {
+      margin-left: 0;
+    }
+    
+    
+  }
+
+  .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.more-text {
+    display: none;
+}
+
+.short-text {
+  display: inline;
+}

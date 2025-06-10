@@ -1,0 +1,63 @@
+
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-style: oblique;
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-weight: bold;
+  }
+
+form {
+    background-color: #ffffff;
+}
+
+
+.btn-primary {
+    background-color: #073D65;
+    border-color: #073D65;
+}
+
+
+.btn-primary:hover {
+    background-color: #1775bd;
+    border-color: #1775bd;
+}
+
+
+@media (max-width: 768px) {
+    .banner-img {
+        height: auto; 
+    }
+    .banner-text h1 {
+        font-size: 4em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .navbar-custom {
+        height: auto;
+    }
+    
+    .navbar-nav .nav-link {
+        border-bottom: none;
+    }
+}
+
+.navbar-custom {
+    background-color: #073D65;
+    height: 80px; 
+    font-size: 20px; 
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar-collapse {
+    background-color: #073D65;
+}

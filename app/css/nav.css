@@ -1,0 +1,37 @@
+.navbar-custom {
+    height: 80px; 
+    font-size: 20px; 
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #073D65 !important;
+}
+/* .navbar-collapse {
+    background-color: #073D65;
+} */
+
+.font-family_nav{
+  font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+    height: auto;
+    font-size: 16px;
+}
+    
+.navbar-nav .nav-link {
+  padding: 5px 10px;
+  margin: 0;
+  border-bottom: none;
+}
+
+}
+
+.body {
+    background-color: #dddada;
+  padding-top: 100px;
+}
+
